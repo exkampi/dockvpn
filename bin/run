@@ -33,6 +33,7 @@ persist-key
 persist-tun
 push "dhcp-option DNS 8.8.8.8"
 push "dhcp-option DNS 8.8.4.4"
+push "redirect-gateway def1 bypass-dhcp"
 
 proto udp
 port 1194
