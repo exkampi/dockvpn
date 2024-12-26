@@ -84,7 +84,6 @@ touch udp1194.log http8080.log
 
 LOGFILE_UDP=udp1194.log
 [ -z "$DISABLE_LOGS" ] || {
-    LOGFILE_TCP=/dev/null
     LOGFILE_UDP=/dev/null
 }
 
